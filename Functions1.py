@@ -11,3 +11,8 @@ def Hello(name):
     print('Your name is ' + name)
 Hello('Ugonna')
 Hello ('Chikezie')
+
+def plusOne(number):
+    return number + 1
+Newnumber = plusOne(5)
+print(Newnumber)
