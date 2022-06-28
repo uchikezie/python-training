@@ -16,3 +16,10 @@ def plusOne(number):
     return number + 1
 Newnumber = plusOne(5)
 print(Newnumber)
+
+#A list of animals and how to separate them in list format
+print('Ugonna, below is a list of animals:')
+print('cat, dog, elephant, etc. ')
+print('Cat', 'dog', 'Elephant')
+print('cat', 'dog', 'elephant', sep = 'AB')
+print('Cat', 'dog', 'Elephant ', end='')
